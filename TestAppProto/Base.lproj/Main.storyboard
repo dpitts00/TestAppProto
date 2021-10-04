@@ -92,7 +92,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="712"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="G3R-pW-v7j">
-                                        <rect key="frame" x="16" y="0.0" width="382" height="564.5"/>
+                                        <rect key="frame" x="16" y="0.0" width="382" height="570.5"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="5jc-gH-ctG">
                                                 <rect key="frame" x="0.0" y="0.0" width="382" height="128.5"/>
@@ -146,7 +146,7 @@
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ODl-x5-cqm">
                                                         <rect key="frame" x="0.0" y="29.5" width="382" height="264"/>
-                                                        <mutableString key="text">Every year, middle-class American families put off traveling because they're too busy or too tired, or they just don't have enough money. And, in some ways, they're right. Traveling can be expensive. But by taking the time to learn about discounts readily available to everyone through the internet... Every year, middle-class American families put off traveling because they're too busy or too tired, or they just don't have enough money. And, in some ways, they're right. Traveling can be expensive. But by taking the time to learn about discounts readily available to everyone through the internet...</mutableString>
+                                                        <string key="text">Every year, middle-class American families put off traveling because they're too busy or too tired, or they just don't have enough money. And, in some ways, they're right. Traveling can be expensive. But by taking the time to learn about discounts readily available to everyone through the internet... Every year, middle-class American families put off traveling because they're too busy or too tired, or they just don't have enough money. And, in some ways, they're right. Traveling can be expensive. But by taking the time to learn about discounts readily available to everyone through the internet...</string>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -166,34 +166,34 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="V8J-Oj-EzG">
-                                                <rect key="frame" x="0.0" y="514.5" width="382" height="50"/>
+                                                <rect key="frame" x="0.0" y="514.5" width="382" height="56"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="LaF-SJ-x1N">
-                                                        <rect key="frame" x="0.0" y="0.0" width="382" height="18"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="382" height="24"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aKd-NK-H7t">
-                                                                <rect key="frame" x="0.0" y="0.0" width="26" height="18"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="26" height="24"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <color key="textColor" systemColor="systemGrayColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vjr-cL-VY6">
-                                                                <rect key="frame" x="42" y="0.0" width="280.5" height="18"/>
+                                                                <rect key="frame" x="42" y="0.0" width="280.5" height="24"/>
                                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                                <constraints>
-                                                                    <constraint firstAttribute="height" constant="18" id="KKh-Y9-qf1"/>
-                                                                </constraints>
                                                             </view>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yNW-H9-Dk7">
-                                                                <rect key="frame" x="338.5" y="0.0" width="43.5" height="18"/>
+                                                                <rect key="frame" x="338.5" y="0.0" width="43.5" height="24"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <color key="textColor" systemColor="systemGrayColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="24" id="uio-fm-HwT"/>
+                                                        </constraints>
                                                     </stackView>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sCo-DM-NVj" customClass="CustomProgressView" customModule="TestAppProto" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="26" width="382" height="24"/>
+                                                        <rect key="frame" x="0.0" y="32" width="382" height="24"/>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="24" id="AOj-tN-miU"/>
@@ -204,14 +204,14 @@
                                         </subviews>
                                     </stackView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QIt-jk-ex7" userLabel="Horizontal Rule">
-                                        <rect key="frame" x="0.0" y="588.5" width="414" height="1"/>
+                                        <rect key="frame" x="0.0" y="594.5" width="414" height="1"/>
                                         <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1" id="oaS-vI-m3d"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ei8-RZ-UsJ">
-                                        <rect key="frame" x="0.0" y="589.5" width="414" height="128"/>
+                                        <rect key="frame" x="0.0" y="595.5" width="414" height="128"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="128" id="rww-k3-iXo"/>
@@ -327,10 +327,10 @@
     <resources>
         <image name="sample-logo" width="240" height="64"/>
         <namedColor name="AccentColor">
-            <color red="0.50147753949999996" green="0.28820380569999998" blue="0.6238233447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.50099998712539673" green="0.28799998760223389" blue="0.62400001287460327" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="NavBarColor">
-            <color red="0.15572491290000001" green="0.65532821419999998" blue="0.68911689519999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.15600000321865082" green="0.65499997138977051" blue="0.68900001049041748" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="opaqueSeparatorColor">
             <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

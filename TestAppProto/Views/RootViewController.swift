@@ -94,10 +94,10 @@ class RootViewController: UIViewController, UINavigationBarDelegate, DonationVie
         descriptionTextLabel.adjustsFontForContentSizeCategory = true
         descriptionTextLabel.font = customBodyFont
         
-//        startProgressLabel.adjustsFontForContentSizeCategory = true
+        startProgressLabel.adjustsFontForContentSizeCategory = true
         startProgressLabel.font = customBodyFont
         
-//        endProgressLabel.adjustsFontForContentSizeCategory = true
+        endProgressLabel.adjustsFontForContentSizeCategory = true
         endProgressLabel.font = customBodyFont
         
         // keep or toss?
