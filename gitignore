@@ -1,0 +1,7 @@
+CustomView.playground
+TestAppProtoUITests/
+TestAppProtoTests/
+
+xcuserdata/
+build/
+DerivedData/
