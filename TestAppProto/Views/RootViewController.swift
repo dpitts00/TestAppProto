@@ -16,6 +16,7 @@ class RootViewController: UIViewController, UINavigationBarDelegate, DonationVie
     @IBOutlet weak var startProgressLabel: UILabel!
     @IBOutlet weak var endProgressLabel: UILabel!
     @IBOutlet weak var customProgressView: CustomProgressView!
+    @IBOutlet weak var donationConfirmationLabel: UILabel!
     
     @IBOutlet weak var horizontalRule: UIView!
     @IBOutlet weak var giveButtonBackground: UIView!
@@ -54,6 +55,8 @@ class RootViewController: UIViewController, UINavigationBarDelegate, DonationVie
             } else {
                 customProgressView.setProgress(1.0)
             }
+            
+            donationConfirmationLabel.text = "Thank you for your generous donation!"
         }
     }
     
@@ -107,6 +110,11 @@ class RootViewController: UIViewController, UINavigationBarDelegate, DonationVie
             giveButtonBackground.layer.shadowOpacity = 0.5
             horizontalRule.layer.opacity = 0.25
         }
+        
+        donationConfirmationLabel.text = ""
+        donationConfirmationLabel.font = customBodyFont
+        donationConfirmationLabel.adjustsFontForContentSizeCategory = true
+        donationConfirmationLabel.adjustsFontSizeToFitWidth = true
     }
     
     func setDonationText() {
