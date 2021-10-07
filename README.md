@@ -9,4 +9,4 @@ App screen test
 - Targeting: iOS, light mode; not constrained
 
 ## Alternate SwiftUI implementation
-![SwiftUI version repo]("https://github.com/dpitts00/TestAppSwiftUI")
+[SwiftUI version repo]("https://github.com/dpitts00/TestAppSwiftUI")
