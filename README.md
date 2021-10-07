@@ -8,5 +8,5 @@ App screen test
 - Accessibilty info: supports dynamic type with "Avenir" font
 - Targeting: iOS, light mode; not constrained
 
-## Possible alternate implementations
-- SwiftUI: build progress bar from Capsule(), pass binding in Environment for current amount
+## Alternate SwiftUI implementation
+![SwiftUI version repo]("https://github.com/dpitts00/TestAppSwiftUI")
